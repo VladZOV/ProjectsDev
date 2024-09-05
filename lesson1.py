@@ -1,12 +1,8 @@
-def count_letters(words: dict[str, int]) -> dict[str, int]:
-	letter_count = {}
-	for word in words:
-    	for letter in word:
-        	if letter in letter_count:
-            	letter_count[letter] += 1
-        	else:
-            	letter_count[letter] = 1
-	return letter_count
+
 		
 
-print(count_letters('qwertyuiopfsgdyagduaefaudfwa'))
+def something_do_func(n):
+	return n ** 2
+
+
+print(something_do_func(2))
