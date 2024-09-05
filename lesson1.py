@@ -7,3 +7,6 @@ def count_letters(words: dict[str, int]) -> dict[str, int]:
         	else:
             	letter_count[letter] = 1
 	return letter_count
+		
+
+print(count_letters('qwertyuiopfsgdyagduaefaudfwa'))
